@@ -1,0 +1,43 @@
+{
+	"analytics-uuid": "aa83ac76-f9f5-413d-a2de-14d550867947",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1636817126639
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "104820392129983528279",
+		"email": "omarenriquefq@gmail.com",
+		"email_verified": true,
+		"at_hash": "BdggBffMlnZn290V0bHsdQ",
+		"iat": 1636303279,
+		"exp": 1636306879
+	},
+	"tokens": {
+		"expires_at": 1636820725463,
+		"refresh_token": "1//05eoYSEa9XtpdCgYIARAAGAUSNwF-L9IrkDB2XayBVBsGbG8ZoGWSp4IELMEfFEupkLMXdbewONgVGyABHJ8QqDwi82fpo3AKByY",
+		"scopes": [],
+		"access_token": "ya29.a0ARrdaM_b_PuTjXpI6fL8MmS0VKrGRJt59BIRsyW7IALIAVNgzePKNgDnm2mM507FpzYpXKjgL9xIdcoGBCTgElOFKwH0D4eaadRnLz8nYmoSckIl8G-MGQb_B1S0dQxEePcNUN88Zl2w1Nwp54t6snwfJ7NQfLWCcCk7Rg",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly openid https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjI3YzcyNjE5ZDA5MzVhMjkwYzQxYzNmMDEwMTY3MTM4Njg1ZjdlNTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0ODIwMzkyMTI5OTgzNTI4Mjc5IiwiZW1haWwiOiJvbWFyZW5yaXF1ZWZxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiZXFzMFo4dWx2RzJ0MnpKUFdzbHd5USIsImlhdCI6MTYzNjgxNzEyNiwiZXhwIjoxNjM2ODIwNzI2fQ.GwZRcL_wS_MEA7lG3nBXyi7RvmWtT412FF3c0zz3WGUh8_EkiK5Zz0JEwma7gJLOyztPN9rroZeMBuWAunD4juXmyxKdzbTzfYQVDhvqnWhIWxGoDerW-GVOi8E3TMIIIGDoPSFPg1M2GzWdTx96OMq3YjSSRRntfgNDA9BLT6fE28-ciDQ-ql5reifQaLldUWm5c9WMgWtzeAb9AVJz79dh6suHqj8ovhEYalEGT8OsGxyXn7Krt1jhHdVhnpUTlCb90RCVkbUBKgDkKTPuvr7LxBCdlVHuFNzZP9ljqjcG1gZrDsCrESzcqo_o5moF9zPqvc1Z0g97_SmKKLcxwA"
+	},
+	"adminsdkconfig": {
+		"ink-code-web": {
+			"projectId": "ink-code-web",
+			"databaseURL": "https://ink-code-web-default-rtdb.firebaseio.com",
+			"storageBucket": "ink-code-web.appspot.com",
+			"locationId": "us-east1"
+		}
+	}
+}

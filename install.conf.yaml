@@ -7,6 +7,12 @@
 - link:
     ~/.zshrc:
     ~/.gitconfig: 
+    ~/.config/bat:
+      create: true
+      path: config/bat
+    ~/.config/nvim:
+      create: true
+      path: config/nvim
 
 - create:
     - ~/Work
