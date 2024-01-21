@@ -112,3 +112,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Syntax highlighting for man pages usign bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+# Homebrew options
+export HOMEBREW_CASK_OPTS="--no-quarantine"
