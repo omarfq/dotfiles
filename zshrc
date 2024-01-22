@@ -8,8 +8,15 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Set Variables
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+# Syntax highlighting for man pages usign bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# Homebrew options
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+# Format output of trail alias
+export NULLCMD=bat
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -113,12 +120,6 @@ alias trail='<<<${(F)path}'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Syntax highlighting for man pages usign bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
-# Homebrew options
-export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Exists functions
 function mkcd() {
