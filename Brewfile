@@ -18,6 +18,8 @@ brew "cairo"
 brew "cmake"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
+# Modern replacement for 'ls'
+brew "exa"
 # Command-line tool to interact with exercism.io
 brew "exercism"
 # GNU compiler collection
