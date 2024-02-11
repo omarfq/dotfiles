@@ -26,6 +26,7 @@ brew "exercism"
 brew "gcc"
 # GitHub command-line tool
 brew "gh"
+brew "zsh"
 # Distributed revision control system
 brew "git"
 # Database migrations CLI tool

@@ -2,25 +2,31 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     ~/.zshrc:
-    ~/.gitconfig: 
+    ~/.gitconfig:
     ~/.config/bat:
       create: true
       path: config/bat
     ~/.config/nvim:
       create: true
       path: config/nvim
+    ~/.config/skhd:
+      create: true
+      path: config/skhd
+    ~/.config/yabai:
+      create: true
+      path: config/yabai
 
 - create:
     - ~/Work
 
 - shell:
-   - command: ./setup_homebrew.zsh
+    - command: ./setup_homebrew.zsh
       stdout: true
       stderr: true
-   - command: ./setup_zsh.zsh 
+    - command: ./setup_zsh.zsh
       stdout: true
       stderr: true
