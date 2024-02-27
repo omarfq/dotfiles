@@ -19,6 +19,9 @@
     ~/.config/yabai:
       create: true
       path: config/yabai
+    ~/.config/tmux:
+      create: true
+      path: config/tmux
 
 - create:
     - ~/Work

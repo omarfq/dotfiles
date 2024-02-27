@@ -125,3 +125,6 @@ alias trail='<<<${(F)path}'
 function mkcd() {
   mkdir -p "@" && cd "$_";
 }
+
+# Go binaries path
+export PATH=$PATH:$HOME/go/bin
