@@ -128,3 +128,8 @@ function mkcd() {
 
 # Go binaries path
 export PATH=$PATH:$HOME/go/bin
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Persist PostgreSQL PATH variable
+export PATH="/path/to/pgsql/bin:$PATH"

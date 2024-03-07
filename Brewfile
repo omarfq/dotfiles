@@ -5,6 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "jesseduffield/lazygit"
 tap "koekeishiya/formulae"
 tap "mongodb/brew"
 tap "ngrok/ngrok"
@@ -62,6 +63,8 @@ brew "node@16"
 brew "nvm"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
+# Show ps output as a tree
+brew "pstree"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # Tool Command Language
