@@ -132,4 +132,4 @@ export PATH=$PATH:$HOME/go/bin
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Persist PostgreSQL PATH variable
-export PATH="/path/to/pgsql/bin:$PATH"
+export PATH="/Library/PostgreSQL/15/bin:$PATH"
